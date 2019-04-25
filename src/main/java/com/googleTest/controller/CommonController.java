@@ -38,7 +38,7 @@ public class CommonController {
     @RequestMapping("/subcriptionInfo")
     public String getSubcriptionInfo(HttpServletRequest request) {
 
-        String access_tokon = "ya29.Glz2Bm0SlrGDp8YiFZmEXmPyahwd6SgLQu7THx8F1xczoL8pZyzgEuBzV-f3SAZY4v0VJFaouaVwqyy1HaNgpUqAxSoPQnT5WuofMaI0jDlpPia2T2Nmukl3jtzbAw";
+        String access_tokon = "ya29.Glz2Bmbwl-3l1w1xeH8KDZhNLxAp61ZV62ReFI0cxKmOnpOP3yG5kQDk8TZXT2rhkUy7GyxfAe2z-ZfoNZkhPDPa3p240EfAAqCGwA8kUbVXpTZFvrx8OcJEwat57w";
         String token = "ahdnkgmecnpdoioeeajkmmgo.AO-J1OwYH7n1QdPTn-5bS2BBqHZXxOVwBzPOUsFYOZIdN-eLhCNajSrJ8Ci-ShOlGhHMPQESpMgI2-zyAYwUorbG_zGaxC8NGGnN5ShJwj5jnUfif9E1A7k";
         subscriptionInfo = getSubscriptionInfo.doGet(access_tokon, token);
         System.out.println(subscriptionInfo.getAutoRenewing());
